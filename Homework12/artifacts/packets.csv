@@ -1,0 +1,5 @@
+packet_no,timestamp,src_ip,dst_ip,sport,dport,event,dns_query,summary
+1,2004-12-05 22:16:24.317453,0.0.0.0,255.255.255.255,68,67,DHCP Discover,,Ether / IP / UDP / BOOTP / DHCP Discover
+2,2004-12-05 22:16:24.317748,192.168.0.1,192.168.0.10,67,68,DHCP Offer,,Ether / IP / UDP / BOOTP / DHCP Offer
+3,2004-12-05 22:16:24.387484,0.0.0.0,255.255.255.255,68,67,DHCP Request,,Ether / IP / UDP / BOOTP / DHCP Request
+4,2004-12-05 22:16:24.387798,192.168.0.1,192.168.0.10,67,68,DHCP ACK,,Ether / IP / UDP / BOOTP / DHCP Ack

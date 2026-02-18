@@ -1,0 +1,10 @@
+{
+  "total_packets": 4,
+  "total_dns_requests": 0,
+  "event_counts": {
+    "DHCP Discover": 1,
+    "DHCP Offer": 1,
+    "DHCP Request": 1,
+    "DHCP ACK": 1
+  }
+}
