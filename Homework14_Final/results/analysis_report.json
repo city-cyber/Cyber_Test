@@ -1,0 +1,32 @@
+{
+  "data_sources": {
+    "vulnerabilities": "local_vulners_sample",
+    "suricata": "sample_suricata_eve.jsonl"
+  },
+  "thresholds": {
+    "cvss": 8.0,
+    "dns_spike": 6
+  },
+  "stats": {
+    "total_vulns": 4,
+    "high_cvss_count": 3,
+    "suricata_events": 10,
+    "alert_events": 2,
+    "dns_events": 7,
+    "threat_ips": 2
+  },
+  "response_actions": [
+    {
+      "src_ip": "10.0.0.5",
+      "risk_score": 10,
+      "simulated_block": true,
+      "notification": "[ALERT] Threat detected from 10.0.0.5. Risk score=10."
+    },
+    {
+      "src_ip": "10.0.0.77",
+      "risk_score": 7,
+      "simulated_block": true,
+      "notification": "[ALERT] Threat detected from 10.0.0.77. Risk score=7."
+    }
+  ]
+}

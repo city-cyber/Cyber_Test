@@ -1,0 +1,4 @@
+id,title,cvss,published,references
+CVE-2024-3094,XZ Utils backdoor supply-chain issue,10.0,2024-03-29,['https://www.cve.org/CVERecord?id=CVE-2024-3094']
+CVE-2021-44228,Log4Shell remote code execution,10.0,2021-12-10,['https://www.cve.org/CVERecord?id=CVE-2021-44228']
+CVE-2024-6387,OpenSSH regreSSHion,8.1,2024-07-01,['https://www.cve.org/CVERecord?id=CVE-2024-6387']

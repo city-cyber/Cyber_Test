@@ -1,0 +1,3 @@
+src_ip,alert_count,high_severity_alert_count,dns_query_count,risk_score
+10.0.0.5,1,1,7,10
+10.0.0.77,1,1,0,7

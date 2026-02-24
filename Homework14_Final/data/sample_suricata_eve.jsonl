@@ -1,0 +1,10 @@
+{"timestamp":"2026-02-14T12:00:01Z","event_type":"dns","src_ip":"10.0.0.5","dest_ip":"8.8.8.8","dns":{"rrname":"example.com","type":"query"}}
+{"timestamp":"2026-02-14T12:00:03Z","event_type":"dns","src_ip":"10.0.0.5","dest_ip":"8.8.4.4","dns":{"rrname":"cdn.example.com","type":"query"}}
+{"timestamp":"2026-02-14T12:00:05Z","event_type":"dns","src_ip":"10.0.0.5","dest_ip":"1.1.1.1","dns":{"rrname":"a.example.net","type":"query"}}
+{"timestamp":"2026-02-14T12:00:07Z","event_type":"dns","src_ip":"10.0.0.5","dest_ip":"1.0.0.1","dns":{"rrname":"b.example.net","type":"query"}}
+{"timestamp":"2026-02-14T12:00:09Z","event_type":"dns","src_ip":"10.0.0.5","dest_ip":"8.8.8.8","dns":{"rrname":"c.example.net","type":"query"}}
+{"timestamp":"2026-02-14T12:00:11Z","event_type":"dns","src_ip":"10.0.0.5","dest_ip":"8.8.4.4","dns":{"rrname":"d.example.net","type":"query"}}
+{"timestamp":"2026-02-14T12:00:13Z","event_type":"dns","src_ip":"10.0.0.5","dest_ip":"1.1.1.1","dns":{"rrname":"e.example.net","type":"query"}}
+{"timestamp":"2026-02-14T12:01:00Z","event_type":"alert","src_ip":"10.0.0.5","dest_ip":"185.220.101.1","alert":{"signature":"ET TROJAN Possible C2 Beacon","severity":1,"category":"A Network Trojan was detected"}}
+{"timestamp":"2026-02-14T12:01:15Z","event_type":"alert","src_ip":"10.0.0.77","dest_ip":"45.9.148.108","alert":{"signature":"ET POLICY Suspicious User-Agent","severity":2,"category":"Potentially Bad Traffic"}}
+{"timestamp":"2026-02-14T12:01:30Z","event_type":"flow","src_ip":"10.0.0.33","dest_ip":"142.250.74.100","proto":"TCP"}
